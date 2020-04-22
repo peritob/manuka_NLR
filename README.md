@@ -1,5 +1,6 @@
 # manuka_NLR
 **These are the steps involved in identifying the NBS-LRR (NLR) complement in the Manuka (*Leptospermum scoparium*) genome.**
+https://doi.org/10.1080/01140671.2019.1657911
 
 1. hmmer/3.2 was used with the nhmmer function and DNA profile hidden markov models (EG_hmm) derived from *Eucalyptus grandis* alignments of the conserved nucleotide binding domain shared by Apaf-1, Resistance proteins and CED4 (NBARC) from coiled-coil (CC) NLR (here named nonTIR) and Toll interleukin-1 (TIR) NLR sequences. These EG_hmms were screened against the Ls_genome.fasta and the Ls_coding.fasta.
 
