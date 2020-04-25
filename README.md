@@ -30,7 +30,7 @@ hmmbuild -nucleic Ls_TIRhmm clustalo-Ls_TIR.stockholm
 
 6. All Ls_TIR and Ls_nonTIR sequences extracted with the species-specific hmm were combined into a single Ls_NBARC.fasta. Total sequences were: 1581.
 
-7. Nucleotide NBARC sequences were 6-frame translated using an adapted Bioseq script and the longest ORF frame output to fasta for downstream analysis. Total sequences from this set, containing the Walker A "GKT" and Walker B "LDD" strings of amino acids were extracted 1240. Then any sequences with no "LDD" were removed (974 sequences retained). *Note - NBARCs should be retained if both 'GKT' and 'LDD' strings are present. On retesting outputs from previous work the same sequence outputs obtained. 
+7. Nucleotide NBARC sequences were 6-frame translated using an adapted Bioseq script and the longest ORF frame output to fasta for downstream analysis. Total sequences from this set, containing the Walker A "GKT" and Walker B "LDD" strings of amino acids were extracted 1240. Then any sequences with no "LDD" were removed (974 sequences retained). *Note - NBARCs should be retained if both 'GKT' and 'LDD' strings are present. On retesting outputs from previous work the number of sequence outputs was reduced to 899. 
 
 8. 246 CC NBARC sequences with the canonical "W" tryptophan within the "LDD*W" were identified (LDDVW = 122, LDDLW = 72, LDDIW = 18, LDDTW = 6, LDDAW = 16, LDDMW = 12). All 974 sequences were aligned with five E. grandis NBARC sequences, 3 nonTIR and 2 TIR using default parameters with MUSCLE in Mega X. A neighbour-joining tree (using defaults) was constructed in Mega X.
 
